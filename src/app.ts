@@ -30,5 +30,3 @@ const db = {
 const connection = async () => {
   return await mysql.createConnection(db);
 };
-
-export default connection;
